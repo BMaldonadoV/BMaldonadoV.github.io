@@ -3,6 +3,7 @@ body {
     font-family: "Helvetica Neue", "Arial", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -150,6 +151,10 @@ svg.diagram .box.disabled text {
   fill: #aaa !important;
 }
 
+a{
+  color: green;
+}
+
 
 table.center {
   margin: 0 auto;
@@ -160,4 +165,16 @@ table.center {
 .table-wrapper {
   display: flex;
   justify-content: center;
+}
+
+.bg-light {
+background-color: #283028!important;
+}
+
+.bg-white{
+  background-color: #B1B6A6!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: white!important;
 }
